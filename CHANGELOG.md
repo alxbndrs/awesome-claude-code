@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [4.1.0] - 2026-06-02
+
+### Added
+
+- `skills/create-twig-template/` — new generator skill for Symfony Twig templates. Places files under `./templates/` following a hierarchical organization: `templates/{purpose}/{bounded-context}/{type}.html.twig` with optional `{component}/{subcomponent}` nesting. Supports both context-first (Style A, default) and type-first (Style B) layouts. Refuses anti-patterns: flat folder mixing bounded contexts, all-templates-at-root, mixing Style A and B inside the same purpose, per-template purpose folders, cross-context partials inside a single context's folder. Purposes covered: `emails/`, `export/`, `frontend/`, `admin/`, `pdf/`, `sms/`, `notifications/`, `bundles/`. Formats: `.html.twig`, `.txt.twig`, `.csv.twig`, `.xml.twig`, `.pdf.twig`. Wired into `acc:api-infrastructure-generator`.
+
+### Component counts
+
+- 26 commands, 68 agents, **292 skills** (was 291 in v4.0.0; +1 = `create-twig-template`).
+- Skill categories: 54 knowledge, **106 generator** (was 105; +1), 108 analyzer, 7 optimizer, 10 template, 7 other.
+
+---
 ## [4.0.0] - 2026-05-30
 
 ### Changed (breaking — content)

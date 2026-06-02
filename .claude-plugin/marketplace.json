@@ -11,7 +11,7 @@
     {
       "name": "acc",
       "source": "./",
-      "description": "The most comprehensive Claude Code extension for PHP developers. 26 commands, 68 agents, 291 skills. Architecture-neutral (works with Clean, Hexagonal, Layered, N-Tier, Package-by-Feature, MVC).",
+      "description": "The most comprehensive Claude Code extension for PHP developers. 26 commands, 68 agents, 292 skills. Architecture-neutral (works with Clean, Hexagonal, Layered, N-Tier, Package-by-Feature, MVC).",
       "version": "4.0.0",
       "author": { "name": "Roman Dykyi", "email": "dykyi.roman@gmail.com" },
       "homepage": "https://github.com/dykyi-roman/awesome-claude-code",

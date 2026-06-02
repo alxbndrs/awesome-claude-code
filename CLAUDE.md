@@ -32,7 +32,7 @@ make release                # Run validate-claude, then print release instructio
 
 commands/          # 26 commands (was .claude/commands/) — user-invokable via /acc:*
 agents/            # 68 agents (was .claude/agents/) — invoked via Task tool with subagent_type
-skills/            # 291 skills (was .claude/skills/) — 54 knowledge, 108 analyzer, 105 generator, 7 optimizer, 10 template, 7 other
+skills/            # 292 skills (was .claude/skills/) — 54 knowledge, 108 analyzer, 106 generator, 7 optimizer, 10 template, 7 other
 
 hooks/
 └── hooks.json     # PHP syntax check hook

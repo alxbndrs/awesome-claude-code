@@ -283,7 +283,7 @@ DDD patterns — entities, value objects, aggregates, the Repository pattern, do
 |--------------------------------------------|-----------------------------------------------|
 | [Commands](docs/commands.md)               | 26 slash commands with examples               |
 | [Agents](docs/agents.md)                   | 68 specialized subagents                      |
-| [Skills](docs/skills.md)                   | 291 skills (knowledge, generators, analyzers) |
+| [Skills](docs/skills.md)                   | 292 skills (knowledge, generators, analyzers) |
 | [Hooks](docs/hooks.md)                     | 21 PHP/DDD hooks                              |
 | [Component Flow](docs/component-flow.md)   | Architecture and dependency graph             |
 | [MCP](docs/mcp.md)                         | MCP server configuration                      |

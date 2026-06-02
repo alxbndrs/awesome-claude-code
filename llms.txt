@@ -4,7 +4,7 @@
 
 ## Quick Facts
 
-- 26 commands, 68 agents, 291 skills, 21 hooks
+- 26 commands, 68 agents, 292 skills, 21 hooks
 - PHP 8.4+, PSR-12, readonly classes
 - DDD/CQRS/Hexagonal patterns
 - Testing, Documentation generation and audit
@@ -129,7 +129,7 @@
 └── plugin.json
 commands/        # 26 commands
 agents/          # 68 agents
-skills/          # 291 skills (knowledge + generators + analyzers)
+skills/          # 292 skills (knowledge + generators + analyzers)
 hooks/
 └── hooks.json   # PHP syntax check hook
 ```

@@ -106,7 +106,7 @@ awesome-claude-code/
 │   │                               #   docker-performance-agent, docker-security-agent,
 │   │                               #   docker-debugger-agent, docker-production-agent
 │   └── ...
-├── skills/                         # 291 skills
+├── skills/                         # 292 skills
 │   ├── *-knowledge/                # 53 knowledge skills
 │   ├── check-*/                    # 72 analyzer skills
 │   ├── find-*/                     # 8 bug detection skills
@@ -120,7 +120,7 @@ awesome-claude-code/
 │   ├── trace-*/                    # 2 tracer skills
 │   ├── map-*/                      # 1 mapper skill
 │   ├── discover-*/                 # 1 discovery skill
-│   ├── create-*/                   # 97 generator skills
+│   ├── create-*/                   # 98 generator skills
 │   ├── generate-*/                 # 2 generator skills
 │   ├── optimize-*/                 # 7 optimizer skills
 │   ├── *-template/                 # 10 template skills
